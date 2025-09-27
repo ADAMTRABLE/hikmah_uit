@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './QuranArabicCourse.css';
 
 const QuranArabicCourse = () => {
@@ -89,17 +89,18 @@ const QuranArabicCourse = () => {
   // Flatten all lessons for easier navigation
   const allLessons = course.modules.flatMap(module => module.lessons);
 
-  const handleLessonSelect = (index) => {
-    setActiveLesson(index);
-  };
+const handleLessonSelect = (index: number) => {
+  setActiveLesson(index);
+};
 
-  const navigateLesson = (direction) => {
-    if (direction === 'prev' && activeLesson > 0) {
-      setActiveLesson(activeLesson - 1);
-    } else if (direction === 'next' && activeLesson < allLessons.length - 1) {
-      setActiveLesson(activeLesson + 1);
-    }
-  };
+const navigateLesson = (direction: 'prev' | 'next') => {
+  if (direction === 'prev' && activeLesson > 0) {
+    setActiveLesson(activeLesson - 1);
+  } else if (direction === 'next' && activeLesson < allLessons.length - 1) {
+    setActiveLesson(activeLesson + 1);
+  }
+};
+
 
   return (
     <div className="course-container">

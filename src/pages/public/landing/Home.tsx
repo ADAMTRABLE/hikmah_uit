@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import styles from './Home.module.css';
 
 const Home = () => {
@@ -13,6 +13,7 @@ const Home = () => {
       level: 'Beginner',
       price: '$99',
       badge: 'Popular',
+      description:'Testing'
     },
     {
       id: 2,
@@ -21,6 +22,7 @@ const Home = () => {
       duration: '8 weeks',
       level: 'Intermediate',
       price: '$79',
+      description:'Testing'
     },
     {
       id: 3,
@@ -29,6 +31,7 @@ const Home = () => {
       duration: '10 weeks',
       level: 'All Levels',
       price: '$89',
+      description:'Testing'
     },
     {
       id: 4,
@@ -37,6 +40,7 @@ const Home = () => {
       duration: '6 weeks',
       level: 'All Levels',
       price: '$69',
+      description:'Testing'
     },
   ];
 

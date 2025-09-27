@@ -1,5 +1,5 @@
 // src/components/PublicHeader.tsx
-import { useState } from "react"
+
 import { Link, useLocation } from "react-router-dom"
 import {
     FaHome,
@@ -7,7 +7,7 @@ import {
     FaBook,
     FaBookReader,
     FaCalendar,
-    FaChevronDown
+    
 } from "react-icons/fa"
 import logo from "../assets/images/hikimalogo2.png"
 

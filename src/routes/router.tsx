@@ -9,10 +9,11 @@ import User from "../pages/admin/users/User";
 
 // New imports
 import CoursesHome from '../pages/public/courses/Course/CourseHome';
-import EventsPage from "../pages/public/Events/Eventspage";
+import EventsPage from "../pages/public/Events/EventsPage";
+
 import LibraryPage from "../pages/public/Library/LibraryPage";
 
-import QuranArabicCourse from '../pages/public/courses/Course/QuranArabicCourse';
+import QuranArabicCourse from "../pages/public/courses/Course/QuranArabicCourse";
 
 import Home from "../pages/public/landing/Home";
 
